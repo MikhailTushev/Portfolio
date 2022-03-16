@@ -1,0 +1,15 @@
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\bin\Debug\net5.0\Profile.Common.deps.json
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\bin\Debug\net5.0\Profile.Common.dll
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\bin\Debug\net5.0\Profile.Common.pdb
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\bin\Debug\net5.0\Portfolio.Domain.dll
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\bin\Debug\net5.0\Portfolio.Domain.pdb
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.csproj.AssemblyReference.cache
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.AssemblyInfoInputs.cache
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.AssemblyInfo.cs
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.csproj.CoreCompileInputs.cache
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.csproj.CopyComplete
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.dll
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\refint\Profile.Common.dll
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\Profile.Common.pdb
+C:\Users\MikhailTushev\source\Portfolio\Profile.Common\obj\Debug\net5.0\ref\Profile.Common.dll

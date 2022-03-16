@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Profile.Common/1.0.0": {
+        "dependencies": {
+          "Portfolio.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Profile.Common.dll": {}
+        }
+      },
+      "Portfolio.Domain/1.0.0": {
+        "runtime": {
+          "Portfolio.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Profile.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Portfolio.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

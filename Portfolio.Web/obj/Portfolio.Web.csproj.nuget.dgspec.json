@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\Portfolio.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\Portfolio.ApplicationServices.csproj",
+        "projectName": "Portfolio.ApplicationServices",
+        "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\Portfolio.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\MikhailTushev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikhailTushev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj": {
+                "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj",
+        "projectName": "Portfolio.Common",
+        "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj",
+        "packagesPath": "C:\\Users\\MikhailTushev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikhailTushev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj": {
+                "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj",
+        "projectName": "Portfolio.Domain",
+        "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj",
+        "packagesPath": "C:\\Users\\MikhailTushev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikhailTushev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
+        "projectName": "Portfolio.Web",
+        "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
+        "packagesPath": "C:\\Users\\MikhailTushev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikhailTushev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\Portfolio.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\Portfolio.ApplicationServices.csproj"
+              },
+              "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj": {
+                "projectPath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.15, 5.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

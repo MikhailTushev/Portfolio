@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AmfETTgv1CYlsJpK8U2o1g8M7MjfdbyqkUSfan9qrAitBKt/7D4EyQIJn5ZuAsSGZKvrnbP7MJxB8WfZxLXWTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.ApplicationServices\\Portfolio.ApplicationServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
