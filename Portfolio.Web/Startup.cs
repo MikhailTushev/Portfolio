@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Portfolio.Web.Hubs;
 
 namespace Portfolio.Web
 {
@@ -30,6 +32,9 @@ namespace Portfolio.Web
         {
             services.AddControllers();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Portfolio.Web", Version = "v1"}); });
+            services.AddAuthorization(options => { options.AddPolicy("CustomHubAuthorizationPolicy", policy => { policy.Requirements.Add(new CustomAuthorizationRequirement()); }); });
+
+            services.AddSignalR();
 
             AppIocConfigure.Configure(services);
         }
@@ -51,7 +56,11 @@ namespace Portfolio.Web
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapHub<NotifyHub>("/notify", options => { options.Transports = HttpTransportType.WebSockets; });
+                endpoints.MapControllers();
+            });
         }
     }
 }

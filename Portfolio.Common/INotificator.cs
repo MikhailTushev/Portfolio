@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace Portfolio.Common
 {
     public interface INotificator
     {
-        Task SendCreateMaskAsync(long userId);
+        Task AddUserAsync(long userId, string connectionId);
+
+        Task RemoveUserAsync(string connectionId);
     }
 }

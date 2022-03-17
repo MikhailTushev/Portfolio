@@ -10,3 +10,9 @@ C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\obj\Debug\
 C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\obj\Debug\net5.0\refint\Portfolio.ApplicationServices.dll
 C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\obj\Debug\net5.0\Portfolio.ApplicationServices.pdb
 C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\obj\Debug\net5.0\ref\Portfolio.ApplicationServices.dll
+C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\bin\Debug\net5.0\Portfolio.Common.dll
+C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\bin\Debug\net5.0\Portfolio.Domain.dll
+C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\bin\Debug\net5.0\Portfolio.Common.pdb
+C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\bin\Debug\net5.0\Portfolio.Domain.pdb
+C:\Users\MikhailTushev\source\Portfolio\Portfolio.ApplicationServices\obj\Debug\net5.0\Portfolio.ApplicationServices.csproj.CopyComplete

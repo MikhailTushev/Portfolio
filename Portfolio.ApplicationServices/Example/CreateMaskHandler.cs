@@ -15,21 +15,25 @@ namespace Portfolio.ApplicationServices.Example
     {
         private static readonly Regex _regex = new(@"{([^{}]*)}", RegexOptions.Compiled);
         private readonly IUserService _userService;
+        private readonly INotificationService _service;
 
-        public SomeHandler(IUserService userService)
+        public SomeHandler(IUserService userService, INotificationService service)
         {
             _userService = userService;
+            _service = service;
         }
 
         public async Task<string> Handle(GenerateMaskCommand request, CancellationToken cancellationToken)
         {
-            if (!string.IsNullOrWhiteSpace(request.Mask))
+            if (string.IsNullOrWhiteSpace(request.Mask))
             {
                 throw new ArgumentException("Введите маску");
             }
 
             CheckAllConditions(request.Mask);
             var mask = BuildMask(request.Mask);
+
+            await _service.SendCreateMaskAsync(_userService.CurrentUserDto.Id);
 
             return mask;
         }
@@ -41,7 +45,7 @@ namespace Portfolio.ApplicationServices.Example
             var values = new Dictionary<string, Func<string>>()
             {
                 {MaskConst.USER_NAME, () => _userService.CurrentUserDto.Name},
-                {MaskConst.USER_ID, () => _userService.CurrentUserDto.Id.ToString()},
+                {MaskConst.USER_ID, GetUserId},
                 {MaskConst.YEAR, () => date.Year.ToString()},
                 {MaskConst.MONTH, () => date.Month.ToString()},
                 {MaskConst.DAY, () => date.Day.ToString()},
@@ -54,6 +58,12 @@ namespace Portfolio.ApplicationServices.Example
             }
 
             return regNumber.ToString();
+        }
+
+        private string GetUserId()
+        {
+            //some operation, may be request to db or other services
+            return _userService.CurrentUserDto.Id.ToString();
         }
 
         private static void CheckAllConditions(string mask)

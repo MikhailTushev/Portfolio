@@ -2,11 +2,11 @@
 
 namespace Portfolio.Common.ImplementationStubs
 {
-    public class UserService : IUserService
+    public class UserServiceStub : IUserService
     {
         private static UserDto _userDto = new() {Id = 1L, Name = "Arnold"};
 
-        public UserService()
+        public UserServiceStub()
         {
             CurrentUserDto = _userDto;
         }

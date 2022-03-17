@@ -18,14 +18,20 @@ namespace Portfolio.Web.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Выводит возможные спец слова, для того, что бы построить маску. 
+        /// </summary>
         [HttpGet("/mask_conditions")]
         public Dictionary<string, string> GetMaskConditions()
         {
             return MaskConst.Values;
         }
 
+        /// <summary>
+        /// Создает маску по спец словам. example "simple/{UserName}@{Year}-example1"
+        /// </summary>
         [HttpPost]
-        public Task<string> CreateNotification([FromQuery] GenerateMaskCommand request)
+        public Task<string> Create([FromQuery] GenerateMaskCommand request)
         {
             return _mediator.Send(request);
         }
