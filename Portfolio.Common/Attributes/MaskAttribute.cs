@@ -4,7 +4,7 @@ namespace Portfolio.Common.Attributes
 {
     public class MaskAttribute : ValidationAttribute
     {
-        private const string ErrMsg = "Password length must be equal or more than 6";
+        private const string ErrMsg = "example";
 
         public MaskAttribute()
         {
@@ -13,14 +13,7 @@ namespace Portfolio.Common.Attributes
 
         public override bool IsValid(object value)
         {
-            if(value is not string)
-            {
-                return false;
-            }
-
-            
-            
-            return false;
+            return value is string;
         }
     }
 }

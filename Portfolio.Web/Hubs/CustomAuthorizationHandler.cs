@@ -17,7 +17,7 @@ namespace Portfolio.Web.Hubs
 
         protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, CustomAuthorizationRequirement requirement)
         {
-            // some authorize logical  
+            // here we can put some failed authorize logical  
             if (false)
             {
                 context.Fail();
