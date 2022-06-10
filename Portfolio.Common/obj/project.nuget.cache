@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ay7MloAt+AaKqlnNWbSHCmeyafbRhRSHBWu1zQlVG5UD3LPh3hE7uHfs9zGZrmNbo7ZvlOSCd6hPxMestiTKWw==",
+  "dgSpecHash": "QGvNhTLXQYXOk00iOPlgpXi16kiu9QkU+hx7RLTj/OpqQew1+2S5j+UoWmGcrticYcgZdm7mFRIHe5/A5bHm+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\internal projects\\Portfolio\\Portfolio.Common\\Portfolio.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

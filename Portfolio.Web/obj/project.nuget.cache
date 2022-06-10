@@ -1,20 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "6vp3FmZw1qayxtoD7+SLXq4X8ZUaTywtu8COyqNiaoNCOQqhvDydszV6zW8ncjXAPW39Ofu/Z+d37OJHdHNh/w==",
+  "dgSpecHash": "r57cl4ODsjkksNYFeZLn2Z1DOESJRM4/w445uXVqC4RaVFmGHdqIj/Y1pZZ5AQUd+w52S53Pn7p8+6Dm8hMjDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
+  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\internal projects\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
-    "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

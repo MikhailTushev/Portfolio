@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xiWEWJU7/cfoCf+XOwF8YQQgY4AlxD865Z8lwpyABwModtIMJwkOdNnRVCeTwXXHuOsJP1yg5LcuOG+Q022YNg==",
+  "dgSpecHash": "sgfMyOwvA4BLN7cSM+L7u95ThKw0MaSq71GPmRF9NpgO28EXwpWtAuMqMDOHZXYGVK6cktghmISNhvJHzyCBfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj",
+  "projectFilePath": "C:\\Users\\MikhailTushev\\source\\internal projects\\Portfolio\\Portfolio.Domain\\Portfolio.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
