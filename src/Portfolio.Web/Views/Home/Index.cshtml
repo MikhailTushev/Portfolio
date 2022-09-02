@@ -1,0 +1,48 @@
+@model Index
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+<div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.0.27/signalr.min.js"></script>
+    <div>
+        Notify
+    </div>
+    <div id="chatroom"></div>
+    <script>
+                    const hubConnection = new signalR.HubConnectionBuilder()
+                        .withUrl("/notify")
+                        .build();
+             
+                    hubConnection.on("SendNotificationAsync", function (data) {
+             
+                        var dto = JSON.parse(data);
+                        var st = 'User: ' + dto.UserId + ' - ' + dto.Text 
+                        
+                        let elem = document.createElement("p");
+                        elem.appendChild(document.createTextNode(st));
+                        let firstElem = document.getElementById("chatroom").firstChild;
+                        document.getElementById("chatroom").insertBefore(elem, firstElem);
+                    });
+             
+                    hubConnection.start();
+    </script>
+
+    <style>
+    p { 
+        font-size: 20px;
+        border-color: #0074cc;
+        border-style: solid;
+        background-color: #ebf4fb;
+        padding: 10px;
+        width: 40vh;
+        text-align: center; }
+    </style>
+</div>
+</body>
+</html>

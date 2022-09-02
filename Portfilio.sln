@@ -1,12 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Web", "Portfolio.Web\Portfolio.Web.csproj", "{C6E04AA9-6E8F-4116-BECE-9F658DA4ADDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Portfolio.Web", "src\Portfolio.Web\Portfolio.Web.csproj", "{C6E04AA9-6E8F-4116-BECE-9F658DA4ADDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.ApplicationServices", "Portfolio.ApplicationServices\Portfolio.ApplicationServices.csproj", "{937B32CE-1F69-4262-90A6-C15DA92F3395}"
+хаха
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Portfolio.ApplicationServices", "src\Portfolio.ApplicationServices\Portfolio.ApplicationServices.csproj", "{937B32CE-1F69-4262-90A6-C15DA92F3395}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Common", "Portfolio.Common\Portfolio.Common.csproj", "{96CA262B-DB17-465D-AC6D-8C20D0E2AF54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Portfolio.Common", "src\Portfolio.Common\Portfolio.Common.csproj", "{96CA262B-DB17-465D-AC6D-8C20D0E2AF54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Domain", "Portfolio.Domain\Portfolio.Domain.csproj", "{CEFE0012-A926-40EC-881F-2F0F24398757}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Portfolio.Domain", "src\Portfolio.Domain\Portfolio.Domain.csproj", "{CEFE0012-A926-40EC-881F-2F0F24398757}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E2CCE9B6-3F36-4151-A07F-325D51485E96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{DFE8FCD4-D791-4AB8-BE68-081C532AE756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{EDEB304F-8961-41BD-B99C-1B6BC75B3847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +37,11 @@ Global
 		{CEFE0012-A926-40EC-881F-2F0F24398757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEFE0012-A926-40EC-881F-2F0F24398757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEFE0012-A926-40EC-881F-2F0F24398757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6E04AA9-6E8F-4116-BECE-9F658DA4ADDB} = {EDEB304F-8961-41BD-B99C-1B6BC75B3847}
+		{937B32CE-1F69-4262-90A6-C15DA92F3395} = {DFE8FCD4-D791-4AB8-BE68-081C532AE756}
+		{96CA262B-DB17-465D-AC6D-8C20D0E2AF54} = {DFE8FCD4-D791-4AB8-BE68-081C532AE756}
+		{CEFE0012-A926-40EC-881F-2F0F24398757} = {DFE8FCD4-D791-4AB8-BE68-081C532AE756}
 	EndGlobalSection
 EndGlobal
