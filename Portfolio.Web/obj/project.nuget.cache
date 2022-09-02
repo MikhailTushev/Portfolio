@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r57cl4ODsjkksNYFeZLn2Z1DOESJRM4/w445uXVqC4RaVFmGHdqIj/Y1pZZ5AQUd+w52S53Pn7p8+6Dm8hMjDQ==",
+  "dgSpecHash": "7L4F8MSlvZtofnYzgdk5eqwAsLecGYcujt2hErFSh3y2tsCyTTGQtQz7CP6u1genykY2Y/myZqQGFutJ0C0fPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\MikhailTushev\\source\\internal projects\\Portfolio\\Portfolio.Web\\Portfolio.Web.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,7 @@
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\MikhailTushev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\MikhailTushev\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

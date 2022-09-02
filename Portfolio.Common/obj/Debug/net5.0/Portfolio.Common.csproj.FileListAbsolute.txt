@@ -14,3 +14,18 @@ C:\Users\MikhailTushev\source\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfo
 C:\Users\MikhailTushev\source\Portfolio\Portfolio.Common\obj\Debug\net5.0\refint\Portfolio.Common.dll
 C:\Users\MikhailTushev\source\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.pdb
 C:\Users\MikhailTushev\source\Portfolio\Portfolio.Common\obj\Debug\net5.0\ref\Portfolio.Common.dll
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\bin\Debug\net5.0\Portfolio.Common.deps.json
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\bin\Debug\net5.0\Portfolio.Common.dll
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\bin\Debug\net5.0\Portfolio.Common.pdb
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\bin\Debug\net5.0\Portfolio.Domain.dll
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\bin\Debug\net5.0\Portfolio.Domain.pdb
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.csproj.AssemblyReference.cache
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.AssemblyInfoInputs.cache
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.AssemblyInfo.cs
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.csproj.CoreCompileInputs.cache
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.csproj.CopyComplete
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.dll
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\refint\Portfolio.Common.dll
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\Portfolio.Common.pdb
+C:\Users\MikhailTushev\source\internal projects\Portfolio\Portfolio.Common\obj\Debug\net5.0\ref\Portfolio.Common.dll
